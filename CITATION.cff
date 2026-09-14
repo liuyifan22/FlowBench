@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Counterfactual Spatial Training"
+authors:
+  - family-names: Liu
+    given-names: Yifan
+    email: lyf@stanford.edu
+  - family-names: Zhang
+    given-names: Baihan
+  - family-names: Aw
+    given-names: Khai Loong
+  - family-names: Kotar
+    given-names: Klemen
+  - family-names: Yamins
+    given-names: Daniel L. K.
+year: 2026
+notes: "Yifan Liu, Baihan Zhang, and Khai Loong Aw contributed equally."
+url: "https://github.com/liuyifan22/Counterfactual-Spatial-Training"
+repository-code: "https://github.com/liuyifan22/Counterfactual-Spatial-Training"
