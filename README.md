@@ -1,6 +1,6 @@
-# Counterfactual Spatial Training
+# FlowBench: Counterfactual Imagination Training for Spatial Intelligence
 
-Yifan Liu\*, Baihan Zhang\*, Khai Loong Aw\*, Klemen Kotar, Daniel L. K. Yamins
+Yifan Liu\*, Baihan Zhang\*, Khai Loong Aw\*, Klemen Kotar\*, Daniel L. K. Yamins
 
 \* Equal contribution
 
@@ -17,11 +17,11 @@ The dataset will be released in about 1.5 months (**before November 2026**). For
 If you use this dataset, please cite:
 
 ```bibtex
-@misc{liu2026counterfactual,
-  title        = {Counterfactual Spatial Training},
+@misc{liu2026flowbench,
+  title        = {FlowBench: Counterfactual Imagination Training for Spatial Intelligence},
   author       = {Liu, Yifan and Zhang, Baihan and Aw, Khai Loong and Kotar, Klemen and Yamins, Daniel L. K.},
   year         = {2026},
-  howpublished = {\url{https://github.com/liuyifan22/Counterfactual-Spatial-Training}},
-  note         = {Yifan Liu, Baihan Zhang, and Khai Loong Aw contributed equally}
+  howpublished = {\url{https://github.com/liuyifan22/FlowBench}},
+  note         = {Yifan Liu, Baihan Zhang, Khai Loong Aw, and Klemen Kotar contributed equally}
 }
 ```
