@@ -10,7 +10,12 @@ A new benchmark emphasizing counterfactual imagination of object motions inside 
 - Scaled Dataset
 - Challenging Benchmark
 
-The dataset will be released in about 1.5 months (**before November 2026**). For a download link, please contact Yifan: [lyf@stanford.edu](mailto:lyf@stanford.edu).
+**Dataset:** [huggingface.co/datasets/StanfordNeuroAILab/FlowBench](https://huggingface.co/datasets/StanfordNeuroAILab/FlowBench). For questions, please contact Yifan: [lyf@stanford.edu](mailto:lyf@stanford.edu).
+
+```python
+from datasets import load_dataset
+ds = load_dataset("StanfordNeuroAILab/FlowBench", "sim_colour_som", split="test")
+```
 
 This repository holds the code that generates **FlowBench-Sim** in AI2-THOR, builds the release, and evaluates and fine-tunes VLMs on it.
 
