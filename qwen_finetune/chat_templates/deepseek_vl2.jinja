@@ -1,0 +1,12 @@
+{#- DeepSeek-VL2 conversation format (deepseek_vl2/models/conversation.py, "deepseek" style):
+    "<|User|>: <image>\n{prompt}\n\n<|Assistant|>:"; the repo ships no chat template. -#}
+{%- if messages[0]['role'] == 'system' -%}
+{%- set system_message = messages[0]['content'] -%}{%- set messages = messages[1:] -%}
+{%- else -%}{%- set system_message = '' -%}{%- endif -%}
+{{- bos_token + system_message -}}
+{%- for message in messages -%}
+{%- if message['role'] == 'user' -%}{{- '<|User|>: ' + message['content'] + '\n\n' -}}
+{%- elif message['role'] == 'assistant' -%}{{- '<|Assistant|>: ' + message['content'] + eos_token + '\n\n' -}}
+{%- endif -%}
+{%- endfor -%}
+{%- if add_generation_prompt -%}{{- '<|Assistant|>:' -}}{%- endif -%}

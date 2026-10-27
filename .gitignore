@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Editor / OS / caches
+.cache
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and scratch
+*.log
+nohup.out
+tmp/
+
+# Data, models and run outputs (regenerable, never committed)
+data/
+models/
+outputs/
+*.jsonl
+*.npy
+*.npz
+*.parquet
+*.safetensors
+*.pt
+*.pth
+
+# AI2-THOR drops unix sockets in the working directory
+/????????-????-????-????-????????????
