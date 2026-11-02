@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowbench"
+version = "1.0.0"
+description = "FlowBench: counterfactual spatial questions generated in AI2-THOR, with VLM evaluation and fine-tuning code"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Yifan Liu" },
+  { name = "Baihan Zhang" },
+  { name = "Khai Loong Aw" },
+  { name = "Klemen Kotar" },
+  { name = "Daniel L. K. Yamins" },
+]
+
+[tool.setuptools]
+packages = ["flowbench"]
